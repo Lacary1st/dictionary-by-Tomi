@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    border: none;
+    background-color: rgb(154, 187, 244);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 250px auto;
+    width: 80%;
+}
+.title{
+    margin-top: 20px;
+    font-size: larger;
+    color: rgb(25, 2, 58);
+    text-align: end;
+}
+
+#wordsearch > input,button{
+    text-align: center;
+    padding: 10px;
+}
+
+
+#wordsearch > input{
+    border: none;
+    width: 50%;
+}
+#wordsearch > button{
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
