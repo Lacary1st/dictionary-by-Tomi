@@ -2,38 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 #container{
     border: none;
-    background-color: rgb(154, 187, 244);
-    padding: 10px;
+    background: linear-gradient(150deg, blue, rgb(20, 255, 224));
+    box-shadow: 0px 5px 30px  black;
     border-radius: 10px;
     margin: 250px auto;
-    width: 80%;
+    width: 500px;
 }
 .title{
+    border-bottom: 2px solid rgb(25, 2, 58);
+    color: white;
+    margin-top: 15px;
+}
+.below{
     margin-top: 20px;
     font-size: larger;
     color: rgb(25, 2, 58);
     text-align: end;
 }
 
-#wordsearch > input,button{
-    text-align: center;
+#wordsearch{
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#wordsearch >input{
     padding: 10px;
-}
-
-
-#wordsearch > input{
     border: none;
-    width: 50%;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
 }
+
 #wordsearch > button{
-    width: 20%;
-    border-radius: 5px;
+    width: 30%;
+    height: 30px;
     border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    background: rgb(222, 218, 218);
+    cursor: pointer;
 }
+
+#wordsearch >button:hover{
+    background:skyblue ;
+   
+}
+
 
 
 
